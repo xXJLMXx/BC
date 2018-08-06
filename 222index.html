@@ -1,0 +1,253 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Logon
+    </title>
+   <link href="bootstrap.min.css" rel="stylesheet"/>
+    <link href="bootstrap-theme.min.css" rel="stylesheet"/>
+  
+  <link href="style.css" rel="stylesheet"/> 
+  
+    <script src="script.js"></script> 
+
+        <script type="text/javascript">
+            var timeout = null;
+            $(function() {
+                setTimeoutPeriod();
+            });
+
+            function goToHome() {
+                location.href = '/Account/Logon';
+            }
+
+            function setTimeoutPeriod() {
+                timeout = setTimeout(goToHome, (1000 * 60 * 20) + 5000); //Add 5 second buffer.
+            }
+
+            function clearTimeoutPeriod() {
+                clearTimeout(timeout);
+            }
+        </script>
+
+  <style>
+    
+/* .shape {
+    position: relative;
+    text-align: center;
+    color: white;
+  
+
+    
+}   */  
+
+.faq {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+        
+    
+    
+    .box {
+background-color: rgba(5,4,2,0.1);
+width: auto;
+height: 100%;
+margin-left:auto;
+margin-right:auto;
+padding: 15px; }
+
+    
+  
+</style>
+  
+</head>
+
+<body>
+    <a class="skip-main" href="#divContent">Skip to main content</a>
+<div id="divMain">
+    <div class="container-fluid">
+<div class="row">
+    <noscript>
+        <div id="pyramedNoScript" class="alert alert-danger text-center">
+            This website requires that JavaScript be enabled in order to function properly.
+        </div>
+    </noscript>
+</div>
+<div class="row"><div class="col-sm-6 col-xs-12" style="background-color: #FFFFFF; height: 110px" >
+	<ul style="margin-top: 10px;">
+		<img src="https://bakersfield.studenthealthportal.com/Customer/Responsive/logo.gif" class="img-responsive" style="height:90px"/><br>
+	</ul>
+</div>
+<div class="col-sm-6 hidden-xs" style="background-color: #FFFFFF; height: 110px;">
+    <ul style="color: #000000; margin-top: 15px" class="pull-right list-unstyled">
+        <li><i style="padding-right: 10px;" class="glyphicon glyphicon-earphone"></i>661-395-4336</li>
+        <li><i style="padding-right: 10px;" class="glyphicon glyphicon-print"></i>661-395-4235</li>
+    </ul>
+</div></div>
+<header>
+    <div class="row">
+        <nav id="pyramedNav" class="navbar navbar-default">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header navbar-right">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portal-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand hidden-sm">
+                    Bakersfield College
+                </span>
+            </div>
+            <div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="portal-navbar">
+                    <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="">My Profile<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="/ChangePassword">Change Password</a>
+                                            </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="">Messages<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="/SecMessage">View Messages</a>
+                                            </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="/Forms">My Forms</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Appointment Scheduling">Appt. Scheduling<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                            <li>
+                                                <a aria-label="Schedule Appointment" href="/SchedAppt/AcceptTerms">Schedule Appt.</a>
+                                            </li>
+                                            <li>
+                                                <a aria-label="View Appointments" href="/ViewAppt">View Appts.</a>
+                                            </li>
+                                    </ul>
+                                </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</header>
+
+        <div id="divContent" class="container-fluid">
+            
+
+
+<div class="row"><center><b>If this is your first time at the Student Health Portal, please select Please Register to register your student ID and set up a password. </b></center></div>
+    <div class="col-sm-4  col-sm-offset-4">
+    </div>
+    
+          
+         
+      
+      
+      
+        <div class="col-sm-4  col-sm-offset-4">
+          
+         
+         
+             
+             
+          
+<form action="/Account/LogonStandard?returnUrl=%2F" id="loginForm" method="post">                <h1 class="text-center">Login</h1>
+<input name="__RequestVerificationToken" type="hidden" value="0C7XEornMiUKZIeemw2Fs9SZ0ejNcOwgk1tfi5JLrhCSEjr0Fvoh-hCt_qjbuPHiJ71Nv3WhLZOUHVg1iADY2_6VbN_7GSg2OdTyaUsj7h81" />                <div class="form-group">
+                    
+             
+                      
+  
+                <label for="UserName">University ID</label>
+                    <input autofocus="true" class="form-control" id="UserName" name="UserName" placeholder="University ID" type="text" value="" />
+                </div>
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <input class="form-control" id="Password" name="Password" placeholder="Password" type="password" />
+                    <a href="/ResetPassword/ResetPassword">Click here to reset your password</a>
+                </div>
+                <button class="btn btn-primary btn-block" type="submit" name="Logon" value="Logon" id="btnLogon">Log in</button>
+</form>            <div class="col-sm-12 text-center" id="divRegister">
+          
+             Not Registered?
+           
+            
+           <a href="/Registration/Register">Click here to register</a> 
+           
+  </div>
+            
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $.validator.setDefaults({
+            submitHandler: function (form) {
+                $('#btnLogon').attr('disabled', 'disabled');
+                form.submit();
+            }
+        });
+
+        $(document).ready(function () {
+            $("#loginForm").validate({
+                rules: {
+                    UserName: "required",
+                    Password: "required"
+                },
+                messages: {
+                    UserName: "Please enter your University ID",
+                    Password: "Please enter your Password"
+                },
+                highlight: function (element) {
+                    $(element).closest('.form-group').addClass('has-error');
+                },
+                unhighlight: function (element) {
+                    $(element).closest('.form-group').removeClass('has-error');
+                },
+                errorElement: 'span',
+                errorClass: 'help-block',
+                errorPlacement: function (error, element) {
+                    if (element.parent('.input-group').length) {
+                        error.insertAfter(element.parent());
+                    } else {
+                        error.insertAfter(element);
+                    }
+                }
+            });
+        });
+    </script>
+
+          
+        </div>
+<!--         <div id="footerWrapper" class="container-fluid">
+<footer class="navbar-fixed-bottom clearfix">
+    <div class="pull-left col-sm-5 hidden-xs">
+    </div>
+    <div class="pull-right col-sm-7 hidden-xs">
+        PHS © 2018
+    </div>
+    <div class="row text-center hidden-sm hidden-md hidden-lg">
+    </div>
+    <div class="row text-center hidden-sm hidden-md hidden-lg">
+        PHS © 2018
+    </div>
+    
+</footer>
+        </div> -->
+    </div>
+</div>
+</body>
+</html>

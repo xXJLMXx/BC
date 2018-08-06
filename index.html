@@ -1,0 +1,283 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Home
+    </title>
+    
+    <link href="bootstrap.min.css" rel="stylesheet"/>
+    <link href="bootstrap-theme.min.css" rel="stylesheet"/>
+  
+    
+   
+    
+    <link href="style.css" rel="stylesheet"/> 
+  
+  <script src="script.js"></script> 
+
+        <script type="text/javascript">
+            var timeout = null;
+            $(function() {
+                setTimeoutPeriod();
+            });
+
+            function goToHome() {
+                location.href = '/Account/Logon';
+            }
+
+            function setTimeoutPeriod() {
+                timeout = setTimeout(goToHome, (1000 * 60 * 20) + 5000); //Add 5 second buffer.
+            }
+
+            function clearTimeoutPeriod() {
+                clearTimeout(timeout);
+            }
+        </script>
+  
+  <style>
+    .box {
+          background-color: rgba(5,4,2,0.1);
+          width: auto;
+          height: 100%;
+          margin-left:auto;
+          margin-right:auto;
+          padding: 15px; }
+  </style>
+    
+</head>
+
+<body>
+  
+    <a class="skip-main" href="#divContent">Skip to main content</a>
+<div id="divMain">
+    <div class="container-fluid">
+<div class="row">
+    <noscript>
+        <div id="pyramedNoScript" class="alert alert-danger text-center">
+            This website requires that JavaScript be enabled in order to function properly.
+        </div>
+    </noscript>
+</div>
+      
+<div class="row"><div class="col-sm-6 col-xs-12" style="background-color: #FFFFFF; height: 110px" >
+	<ul style="margin-top: 10px;">
+		<img src="https://bakersfield.studenthealthportal.com/Customer/Responsive/logo.gif" class="img-responsive" style="height:90px"/><br>
+	</ul>
+</div>
+<div class="col-sm-6 hidden-xs" style="background-color: #FFFFFF; height: 110px;">
+    <ul style="color: #000000; margin-top: 15px" class="pull-right list-unstyled">
+        <li><i style="padding-right: 10px;" class="glyphicon glyphicon-earphone"></i>661-395-4336</li>
+        <li><i style="padding-right: 10px;" class="glyphicon glyphicon-print"></i>661-395-4235</li>
+    </ul>
+</div></div>
+<header>
+    <div class="row">
+        <nav id="pyramedNav" class="navbar navbar-default">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header navbar-right">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portal-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand hidden-sm">
+                    Bakersfield College
+                </span>
+            </div>
+            <div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="portal-navbar">
+                    <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="">My Profile<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="pw.html">Change Password</a>
+                                            </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="">Messages<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="/SecMessage">View Messages</a>
+                                            </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="/Forms">My Forms</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Appointment Scheduling">Appt. Scheduling<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                            <li>
+                                                <a aria-label="Schedule Appointment" href="schedule.html">Schedule Appt.</a>
+                                            </li>
+                                            <li>
+                                                <a aria-label="View Appointments" href="/ViewAppt">View Appts.</a>
+                                            </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="/Account/Logoff">Log Off</a>
+                                </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            
+              
+            </div><!-- /.container-fluid -->
+              
+        </nav>
+
+    </div>
+</header>
+      
+  
+      
+
+        <div id="divContent" class="container-fluid">
+          
+          
+          <img src="https://cdn.glitch.com/a825bc5e-ac3d-47c7-a578-2f75ede3a3a3%2F18423988_774381986073626_4874186420574647065_n.jpg?1531414420114" class="center img-responsive" alt="Responsive image" style="width:700px">
+          
+          
+<h1 class="text-center">Welcome to the Student Health Portal</h1>
+<div class="row" style="padding-top: 30px; font-Size: 1.2em">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="box col-xs-12">
+              
+                  
+              <p>You have <a href="Forms">pending forms.</a>  Please fill them out ASAP.</p>
+             
+              <br/>
+                <p>
+                    The mission of the Bakersfield College Student Health and Wellness Services at Bakersfield College is to further the health equity of the educational opportunity. This is accomplished by providing access to high value, student centered and culturally competent health services. Services which promote the physical, emotional and spiritual wellness of its students and their academic environment. This wellness contributes to the educational aim of our college by promoting student persistence and academic success in congruence with the college’s mission, core values and strategic directions.
+                </p>  
+              
+              <p>
+                Bakersfield College Student Health and Wellness Services is committed to providing all students with quality health care. We hope you find the Student Health Portal to be a useful tool to help manage your health. 
+              </p>
+              
+              <p>
+                In the event you become injured or ill on campus or witness an injury, contact Public Safety at (661) 395-4554. Public Safety will advise you of what to do next. When in doubt about a life or death circumstance or serious injury or illness call 911 and then call Public Safety at (661) 395-4554.
+              </p>
+          
+             Best wishes for a healthy school year!
+            <p>
+                  <br/>
+                    Sincerely,<br/>
+                  <br/>
+                  
+                    Raymond Purcell, MN.NP<br/>
+                    Director
+                </p>
+              <br/>
+<!-- 				<br><br>
+				<center><img src="~/Customer/Responsive/homepage.jpg" class="img-responsive" style="height:250px"/></center>
+				<br><br> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="row hidden-xs hidden-sm">
+        <div class="col-sm-10 col-sm-offset-1" style="display: flex; ">
+            <div class="col-md-4" style="display: flex; flex-direction: row; flex: 1;">
+                <div class="well" style="display: flex; flex-direction: column; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; width: 100%;">
+                    <h3>Important Information</h3>
+                    <ul>
+						Stay tuned for upcoming information.
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4" style="display: flex; flex-direction: row; flex: 1;">
+                <div class="well" style="display: flex; flex-direction: column; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; width: 100%;">
+                    <h3>Upcoming Events</h3>
+                    <ul>
+						Stay tuned for upcoming information.
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4" style="display: flex; flex-direction: row; flex: 1;">
+                <div class="well" style="display: flex; flex-direction: column; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; width: 100%;">
+                    <h3>Related Links</h3>
+                    <ul>
+						<li><a href="https://www.bakersfieldcollege.edu/student/health" target="_blank">Health Services Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row hidden-md hidden-lg" style="overflow: hidden;">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-4">
+                <div class="well" style="-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;">
+                    <h3>Important Information</h3>
+                    <ul>
+						Stay tuned for upcoming information.
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well" style="-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;">
+                    <h3>Upcoming Events</h3>
+                    <ul>
+						Stay tuned for upcoming information.
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well" style="-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;">
+                    <h3>Related Links</h3>
+                    <ul>
+                        <li><a href="#" target="_blank">Health Center Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+          <br/>
+      
+<div class="iframe" >
+  <div>
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBCStudentHealth%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  </div>
+</div>
+          
+        
+          
+          
+<!--   <div id="footerWrapper" class="container-fluid">
+<footer class="navbar-fixed-bottom clearfix">
+    <div class="pull-left col-sm-5 hidden-xs">
+TEST, JOSEPHS    </div>
+    <div class="pull-right col-sm-7 hidden-xs">
+        PHS © 2018
+    </div>
+    <div class="row text-center hidden-sm hidden-md hidden-lg">
+TEST, JOSEPHS    </div>
+    <div class="row text-center hidden-sm hidden-md hidden-lg">
+        PHS © 2018
+    </div>
+  
+ 
+    
+</footer> -->
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
